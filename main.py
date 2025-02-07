@@ -31,7 +31,6 @@ def table_to_df(table):
         cols = [ele.text.strip() for ele in cols]
         data.append([ele for ele in cols if ele])
     data = list(filter(lambda x: len(x) != 0, data))
-    print(data)
     return pd.DataFrame(data, columns=header)
 
 
