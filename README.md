@@ -9,6 +9,6 @@ This tool uses [uv](https://docs.astral.sh/uv/) for managing python environments
 You can clone this repository and initiate uv by running `uv sync`. Once successfully installed the dependencies, you can run `uv run main.py <link_1> <link_2> ...`.
 
 ## command line arguments
-* `uv run main.py -h`: Help command. Shows more detailed and accurate description of the command line arguments.
-* `uv run main.py [links]`: Scrapes from each links and saves the table in the csv file in the `data` directory.
-* `uv run main.py --data_path <directory_path> [links]`: Same as above, but saves the csv in `directory_path`.
+* `./main -h`: Help command. Shows more detailed and accurate description of the command line arguments.
+* `./main [links]`: Scrapes from each links and saves the table in the csv file in the `data` directory.
+* `./main --data_path <directory_path> [links]`: Same as above, but saves the csv in `directory_path`.
